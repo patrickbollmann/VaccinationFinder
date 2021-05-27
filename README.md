@@ -5,4 +5,4 @@ Auto crawl medical websites to get your Covid-19 vaccination appointment
 2. Decide whether to use the request or the selenium version (selenium version might be more work but should be able to crawl every website. The request version needs the exact GET request to the medical appointment service.
 3. Edit the example code to fit your needs. For the request version you might only need to swap out the URL. The Selenium version might need more work because you need to parse the html.
 
-4. Found appointments being sent via telegram bot.
+4. Found appointments being sent via telegram bot using the telegram-send package (https://pypi.org/project/telegram-send/)
